@@ -29,6 +29,18 @@ public class Resources {
 			images.put("moving7", loadImage("resources/moving/sprite7.png"));
 			images.put("moving8", loadImage("resources/moving/sprite8.png"));
 			images.put("moving9", loadImage("resources/moving/sprite9.png"));
+			
+			images.put("shooting1", loadImage("resources/shooting/sprite1.png"));
+			images.put("shooting2", loadImage("resources/shooting/sprite2.png"));
+			
+			images.put("crouching1", loadImage("resources/crouching/sprite1.png"));
+			images.put("crouching2", loadImage("resources/crouching/sprite2.png"));
+			images.put("crouching3", loadImage("resources/crouching/sprite3.png"));
+			images.put("crouching4", loadImage("resources/crouching/sprite4.png"));
+			images.put("crouching5", loadImage("resources/crouching/sprite5.png"));
+			
+			
+
 
 			
 		} catch (SlickException e) {

@@ -13,10 +13,10 @@ public class Engine extends StateBasedGame{
     private static Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
     private static int width = 1280;
     private static int height = 720;
-    private static boolean isFullscreen = true;
+    private static boolean isFullscreen = false;
     
     public Engine(){
-        super("Ship Wars");
+        super("Run N Gun");
     }
 
     public static void main(String [] args){
